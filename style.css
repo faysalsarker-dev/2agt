@@ -379,7 +379,7 @@ footer{
 }
 .grid-box-2{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     gap: 10px;
 }
 .grid-box-3{
@@ -413,14 +413,13 @@ footer{
     background-position: center;
     border-radius: 16px;
     text-align: center;
-    height: 300px;
+    height: 299px;
     background-size: cover;
     padding:100px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .grid-head{
     color: white;
@@ -434,10 +433,12 @@ footer{
 .btn-primary:hover{
     background-color: #fff;
     color: #FF5400;
+    border: 2px solid #FF5400;
 }
 .btn-primary-btn:hover{
     background-color: #fff;
     color: #FF5400;
+    border: 2px solid #FF5400;
 }
 
 @media all and (max-width:767px){
@@ -472,6 +473,7 @@ footer{
     }
     .dropdown{
         display: inline;
+        width: 49px;
     }
     .container{
         display: block;

@@ -184,6 +184,20 @@ ol li{
     margin: 10px 0;
   
 }
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex div{
+    background-color: #FBB56333;
+    width: 50%;
+    margin-top: 40px;
+    padding: 50px 100px;
+    margin-inline: 5px;
+    border-radius: 16px;
+}
 @media all and (max-width:767px){
     nav ul {
     display: none;

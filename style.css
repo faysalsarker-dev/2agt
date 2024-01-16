@@ -40,6 +40,13 @@ ul > li{
 li a{
     text-decoration: none;
     margin-inline: 5px;
+    color: #424247;
+font-size: 18px;
+font-weight: 400;
+
+}
+#home{
+ color: #FF5400;   
 }
 
 header{
@@ -98,6 +105,7 @@ line-height: 26px;
     background-color: #FF5400;
     color: white;
 font-size: 16px;
+transition: all 1s;
 font-weight: 700;
 }
 .btn-primary-btn{
@@ -107,6 +115,7 @@ font-weight: 700;
 font-size: 16px;
 border: none;
 margin: 10px 0;
+transition: all 1s;
 border-radius: 8px;
 font-weight: 700;
 }
@@ -222,44 +231,25 @@ ol li{
 
 .img-box1{
     background:url(img/Rectangle\ 12.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 450px;
-    margin-top: 50px;
-    border-radius: 16px;
-    text-align: center;
-    background-size: cover;
-    padding:100px;
-    box-sizing: border-box;
 }
 .img-box2{
     background:url(img/Rectangle\ 12\ \(1\).png);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 450px;
-    margin-top: 20px;
-    border-radius: 16px;
-    text-align: center;
-    background-size: cover;
-    padding:100px;
-    box-sizing: border-box;
 }
 .img-box3{
     background:url(img/Rectangle\ 12\ \(2\).png);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 450px;
-    margin-top: 20px;
-    border-radius: 16px;
-    text-align: center;
-    background-size: cover;
-    padding:100px;
-    box-sizing: border-box;
 }
 .img-box1 , .img-box2 , .img-box3{
     display: flex;
     justify-content: end;
-  
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 16px;
+    text-align: center;
+    background-size: cover;
+    padding: 100px 70px;
+    box-sizing: border-box;
 }
 .img-item i{
 color: #FF5400;
@@ -294,10 +284,7 @@ font-weight: 800;
 .text-left{
     text-align: left;
 }
-.btn-flex{
-    display: flex;
-    justify-content: center;
-}
+
 .form{
     height: 98%;
     margin-right: 5px;
@@ -306,7 +293,7 @@ font-weight: 800;
     padding: 9px;
     margin-bottom: 10px;
 }
-form input{
+form > input{
     background-color: #1313180D;
     width: 94%;
     margin-bottom: 8px;
@@ -314,8 +301,9 @@ form input{
 .form-btn{
     border-radius: 8px;
     padding: 18px 100px;
-    width: 98%;
     border: none;
+    display: block;
+    width: 100%;
 }
 .flex-container{
     display: flex;
@@ -332,11 +320,12 @@ form input{
     width: 200px;
     position: absolute;
     background: #FF5400;
-    bottom: 60px;
+    bottom: 50px;
     right: 0;
+    width: 200px !important;
     color: white;
     border-radius: 16px;
-    transform: rotate(-24deg);
+    transform: rotate(-22deg);
     padding: 8px 12px;
     box-sizing: border-box;
 }
@@ -361,16 +350,7 @@ footer{
 .flex-container div {
     width: 50%;
 }
-.item-1{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-.img-1 {
-    width: 100%;
-}
-.item-1 img ,.item-2 img ,.item-3 img{
-    width: 100%;
-}
+
 .last-cont-img{
     background:linear-gradient(#13131814, #13131800) ,url(img/Group\ 40089.png);
     background-repeat: no-repeat;
@@ -387,6 +367,77 @@ footer{
     align-items: center;
     color: white;
     font-size: 24px;
+}
+.grid-boxes{
+    display: grid;
+    grid-gap: 10px;
+}
+.grid-box-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.grid-box-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+}
+.grid-box-3{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+.grid-item-1{
+    background:url(img/Rectangle\ 5.png);
+}
+.grid-item-2{
+    background:url(img/Rectangle\ 8.png);
+}
+.grid-item-3{
+    background:url(img/Rectangle\ 6.png);
+}
+.grid-item-4{
+    background:url(img/Rectangle\ 7.png);
+}
+.grid-item-5{
+    background:url(img/Rectangle\ 9.png);
+}
+.grid-item-6{
+    background:url(img/Rectangle\ 11.png);
+}
+.grid-item-7{
+    background:url(img/Rectangle\ 10.png);
+}
+.grides{
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    text-align: center;
+    height: 300px;
+    background-size: cover;
+    padding:100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.grid-head{
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+    transition: all 1s ;
+}
+.grides:hover .grid-head{
+    transform: scale(1.8);
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: #FF5400;
+}
+.btn-primary-btn:hover{
+    background-color: #fff;
+    color: #FF5400;
 }
 
 @media all and (max-width:767px){
@@ -452,24 +503,23 @@ font-weight: 800;
        
     }
     .img-item{
-        padding: 40px 20px;
-        
-       
+        padding: 20px 20px;
     }
     .comon-h4{
         font-size: 20px;
     }
     .img-item p{
         color: #5A5A5D;
-font-size: 14px;
-font-weight: 400;
+        font-size: 14px;
+        
     }
     .img-item i{
         font-size: 16px;
     }
     .price{
 font-size: 16px;
-font-weight: 800;
+font-weight: 800 !important;
+color: #FF5400 !important;
     }
     .img-box1 , .img-box2 , .img-box3{
        padding: 70px;
@@ -481,9 +531,13 @@ font-weight: 800;
     .flex-container div {
         width: 98%;
     }
-    .later-box{
-        transform: rotate(-20deg);
-        padding: 3px;
-        width: 200px;
+    .grid-boxes{
+        display: block;
     }
+  .grid-box-1 , .grid-box-2 , .grid-box-3{
+    display: block;
+  }
+  .grides{
+    margin-top: 10px;
+  }
 }

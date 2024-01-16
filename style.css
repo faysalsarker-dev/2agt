@@ -181,8 +181,7 @@ ol li{
 }
 .grid-box img{
     width: 100%;
-    margin: 10px 0;
-  
+    /* margin: 10px 0; */
 }
 
 .flex-1{
@@ -272,6 +271,7 @@ color: #FF5400;
     border-radius: 16px;
     padding: 30px 50px;
     display: block;
+    font-size: 12px;
     
 }
 .comon-h4{
@@ -329,14 +329,14 @@ form input{
     
 }
 .later-box{
-    width: 50%;
+    width: 200px;
     position: absolute;
     background: #FF5400;
-    bottom: 90px;
+    bottom: 60px;
     right: 0;
     color: white;
     border-radius: 16px;
-    transform: rotate(-30deg);
+    transform: rotate(-24deg);
     padding: 8px 12px;
     box-sizing: border-box;
 }
@@ -361,6 +361,34 @@ footer{
 .flex-container div {
     width: 50%;
 }
+.item-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.img-1 {
+    width: 100%;
+}
+.item-1 img ,.item-2 img ,.item-3 img{
+    width: 100%;
+}
+.last-cont-img{
+    background:linear-gradient(#13131814, #13131800) ,url(img/Group\ 40089.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 16px;
+    text-align: center;
+    background-size: cover;
+    padding:100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
 @media all and (max-width:767px){
     nav ul {
     display: none;
@@ -456,6 +484,6 @@ font-weight: 800;
     .later-box{
         transform: rotate(-20deg);
         padding: 3px;
-        width: 100px;
+        width: 200px;
     }
 }

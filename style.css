@@ -185,6 +185,23 @@ ol li{
   
 }
 
+.flex-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card3{
+    padding: 10px 50px;
+    margin: 8px 0;
+    margin-inline: 5px;
+    width: 400px;
+    border-radius: 16px;
+    background-color: #E9444433;
+}
+.flex .card1{
+    background-color: #29CEF633
+}
+
 .flex{
     display: flex;
     align-items: center;
@@ -193,10 +210,93 @@ ol li{
 .flex div{
     background-color: #FBB56333;
     width: 50%;
-    margin-top: 40px;
-    padding: 50px 100px;
+    margin-top: 20px;
+    padding: 10px 50px;
+    width: 400px;
     margin-inline: 5px;
     border-radius: 16px;
+}
+.flex img , .flex-1 img{
+ margin: 8px 0;
+}
+
+
+.img-box1{
+    background:url(img/Rectangle\ 12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    margin-top: 50px;
+    border-radius: 16px;
+    text-align: center;
+    background-size: cover;
+    padding:100px;
+    box-sizing: border-box;
+}
+.img-box2{
+    background:url(img/Rectangle\ 12\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 16px;
+    text-align: center;
+    background-size: cover;
+    padding:100px;
+    box-sizing: border-box;
+}
+.img-box3{
+    background:url(img/Rectangle\ 12\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 16px;
+    text-align: center;
+    background-size: cover;
+    padding:100px;
+    box-sizing: border-box;
+}
+.img-box1 , .img-box2 , .img-box3{
+    display: flex;
+    justify-content: end;
+  
+}
+.img-item i{
+color: #FF5400;
+   
+}
+.img-item{
+    background-color: #ffffffbb;
+    width: 400px;
+    border-radius: 16px;
+    padding: 30px 50px;
+    display: block;
+    
+}
+.comon-h4{
+ 
+color: #131318;
+ font-size: 24px;
+text-align: left;
+margin: 9px 0;
+ font-weight: 800;
+
+}
+.price{
+    color: #FF5400;
+    color: #FF5400;
+font-size: 20px;
+text-align: left;
+margin: 9px 0;
+font-weight: 800;
+}
+.text-left{
+    text-align: left;
+}
+.btn-flex{
+    display: flex;
+    justify-content: center;
 }
 @media all and (max-width:767px){
     nav ul {
@@ -245,5 +345,43 @@ ol li{
         color: #131318;
 font-size: 20px;
 font-weight: 800;
+    }
+    .flex , .flex-1{
+        display: block;
+    }
+   .card3 {
+        width: 80%;
+        padding: 30px;
+        margin-bottom: 8px;
+    }
+ 
+    .flex div{
+        width: 80%;
+        padding: 30px;
+       
+    }
+    .img-item{
+        padding: 40px 20px;
+        
+       
+    }
+    .comon-h4{
+        font-size: 20px;
+    }
+    .img-item p{
+        color: #5A5A5D;
+font-size: 14px;
+font-weight: 400;
+    }
+    .img-item i{
+        font-size: 16px;
+    }
+    .price{
+font-size: 16px;
+font-weight: 800;
+    }
+    .img-box1 , .img-box2 , .img-box3{
+       padding: 70px;
+      
     }
 }

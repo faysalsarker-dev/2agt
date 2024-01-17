@@ -295,8 +295,8 @@ font-weight: 800;
 }
 form > input{
     background-color: #1313180D;
-    width: 94%;
-    margin-bottom: 8px;
+    width: 90%;
+    margin-bottom: 10px;
 }
 .form-btn{
     border-radius: 8px;
@@ -345,7 +345,10 @@ footer{
     
 }
 .div i{
-    margin-inline: 10px;
+    color: #ff5500ad;
+    margin-inline: 20px;
+    font-size: 30px;
+    margin-top: 10px;
 }
 .flex-container div {
     width: 50%;
@@ -541,5 +544,8 @@ color: #FF5400 !important;
   }
   .grides{
     margin-top: 10px;
+  }
+  footer{
+    padding: 58px;
   }
 }

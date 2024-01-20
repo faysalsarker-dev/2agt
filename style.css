@@ -443,7 +443,10 @@ footer{
     color: #FF5400;
     border: 2px solid #FF5400;
 }
-
+.lb{
+    border-left: 4px solid #FF5400;
+    padding-left: 15px;
+}
 @media all and (max-width:767px){
     nav ul {
     display: none;
